@@ -20,13 +20,18 @@ body{
 }
 
 .select-box {
-   
     background: #fff;
     padding: 20px 25px 25px;
     border-radius: 5px;
     max-width: 330px;
     width: 100%;
-    display: none;
+    transition: all 0.3s ease; 
+}
+
+.select-box.hide {
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .select-box header {
@@ -61,7 +66,8 @@ body{
     transition: all 0.3s ease;
 }
 
-.options button:hover {
+.options button:hover,
+.result-box .btn button:hover {
     transform: scale(0.9);
 }
 
@@ -75,7 +81,9 @@ body{
 
 
 .play-bord {
-    display: none;
+        opacity: 0;
+        pointer-events: none;
+        transform: translate(-50%, -50%) scale(0.9);
 }
 
 .play-bord .details {
@@ -159,9 +167,39 @@ body{
     background: #fff;
     padding: 20px;
     border-radius: 5px;
+    max-width: 350px;
+    width: 100%;
+    display: none;
 }
 
-.result-box .won {
+.result-box .won-text {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
 
-    
+.result-box .won-text p {
+    font-weight: 600;
+    margin: 0 3px;
+}
+
+.result-box .btn {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.result-box .btn button {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border:none;
+    outline:none;
+    background: #56baed;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
