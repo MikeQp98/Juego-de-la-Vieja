@@ -12,16 +12,21 @@ body{
     background: #56baed;
 }
 
-.select-box {
+.select-box, .play-bord{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.select-box {
+   
     background: #fff;
     padding: 20px 25px 25px;
     border-radius: 5px;
     max-width: 330px;
     width: 100%;
+    display: none;
 }
 
 .select-box header {
@@ -68,3 +73,13 @@ body{
     margin-left: 5px;
 }
 
+
+.play-bord .details {
+    background-color:#fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.play-bord .section span {
+    
+}
