@@ -8,8 +8,9 @@
 
 }
 
+
 body{
-    background: #56baed;
+    background: #92000A;
 }
 
 .select-box, .play-bord, .result-box{
@@ -60,7 +61,7 @@ body{
     padding: 10px 0;
     border:none;
     outline:none;
-    background: #56baed;
+    background: #92000A;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
@@ -108,7 +109,7 @@ transform: translate(-50%, -50%) scale(0.9);
 
 .play-bord .details span {
     width: 100%;
-    color: #56baed;
+    color: #92000A;
     border-radius: 5px;
     padding: 7px 0;
     font-size: 19px;
@@ -136,14 +137,14 @@ transform: translate(-50%, -50%) scale(0.9);
     height: 100%;
     width: 50%;
     border-radius: 5px; 
-    background: #56baed;
+    background: #92000A;
     border-radius: 5px;
     z-index: 2;
     transition: all 0.3s ease;
 }
 
 .players.active span:first-child {
-    color: #56baed;
+    color: #92000A;
 }
 .players.active span:nth-child(2) {
     color: #fff;
@@ -181,7 +182,7 @@ transform: translate(-50%, -50%) scale(0.9);
     font-size: 40px;
     text-align: center;
     line-height: 80px;
-    color: #56baed;
+    color: #92000A;
 }
 
 .result-box {
@@ -225,7 +226,7 @@ transform: translate(-50%, -50%) scale(0.9);
     padding: 8px 20px;
     border:none;
     outline:none;
-    background: #56baed;
+    background: #92000A;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
